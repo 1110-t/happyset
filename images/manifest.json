@@ -7,5 +7,87 @@
             "All images loaded in 1110-t/happyset project"
         ]
     },
-    "items": []
+    "items": [
+        {
+            "id": "https://1110-t.github.io/happyset/images/IMG20260512154323/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "IMG20260512154323"
+                ]
+            },
+            "height": 1600,
+            "width": 1200,
+            "items": [
+                {
+                    "id": "https://1110-t.github.io/happyset/images/IMG20260512154323/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://1110-t.github.io/happyset/images/IMG20260512154323/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://1110-t.github.io/happyset/images/IMG20260512154323/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 38,
+                                                "height": 50
+                                            },
+                                            {
+                                                "width": 75,
+                                                "height": 100
+                                            },
+                                            {
+                                                "width": 150,
+                                                "height": 200
+                                            },
+                                            {
+                                                "width": 300,
+                                                "height": 400
+                                            },
+                                            {
+                                                "width": 600,
+                                                "height": 800
+                                            },
+                                            {
+                                                "width": 1200,
+                                                "height": 1600
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1200,
+                                        "@id": "https://1110-t.github.io/happyset/images/IMG20260512154323",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1600,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://1110-t.github.io/happyset/images/IMG20260512154323/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
